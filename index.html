@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--
+    I really wanted to use a lot of my programs AS my notes,
+    so if anyone ends up reading this just know there will be a
+    LOT of comments.
+
+    First note, I don't fully understand why this is called an
+    index file? I assume an index is as it sounds, but for now
+    the naming convention doesn't really have a connection to
+    anything I understand. Ask about this later.
+
+    Also, apparently, HTML uses a set of reconized commands known
+    as 'tags', which almost all of the code below will use. I don't
+    know how they compare to functions or keywords though. This first
+    one is the DOCTYPE tag, and it talks to the browser to tell
+    it what we're using. In this case, HTML5. -->
+<html>
+<!--
+    Here, we put down an html tag to let the browser know that this is
+    where the HTML begins, which is pretty scary because that kind of
+    implies that webpages can be made of several different languages at
+    once. -->
+
+<head>
+    <!-- From the video: "This is where you store all of the
+    information and imports for the page. -->
+    <meta charset="utf-8"> <!-- This tag sets the characters to be used in the page-->
+    <title>\o/ Demo Project \o/</title> <!-- This is the description on the tab in a browser -->
+</head>
+<body> <!-- This is the content of the page itself. -->
+
+    <h1>My First Website</h1> <!-- h1 up to h6 are headings. This is not enumnerated, it's a style -->
+    <p> This is <strong>technically</strong> the second website I've made. That's not what the little tutorial told me to write, though. But this <em>will</em> teach me a number of basics about using HTML.</p>
+
+    <!-- p creates a new paragraph. Generally used to denote blocks of text.
+     The additional tags such as strong and em are called In-Line tags, and modify that text-->
+
+    <div> <!-- Informs the browser that there needs to be a gap here -->
+        <h2>HTML Learning Goals</h2> <!-- Again h2 to is a style and not the second heading-->
+        <ul> <!-- ul and ol are unordered and ordered lists respectively -->
+            <li>Page Structure</li> <!-- each list tag, li, denotes a bullet -->
+            <li>Element Attributes</li>
+            <li>Tag Types</li>
+            <li>Linking in Other Resources</li>
+        </ul>
+    </div>
+
+    <div> <!-- Indentation in this case is a measure of opening and closing new tags -->
+        <h2>CSS Learning Goals</h2>
+        <ul>
+            <li>What Properties Are</li>
+            <li>How to use Elements, and Element Attributes to change Styles</li>
+            <li>How CSS Style Cascade</li>
+            <li>How to Include These Styles</li>
+        </ul>
+    </div>
+    <!-- I have a specific question I need to remember. The video
+     mentions that I should be able to just open this file in a web browser,
+     but I can't do that without deploying it first. Is that correct?
+     I feel like I should be able to run my code without deployment.-->
+
+    <table>
+        <tr> <!-- table rows -->
+            <th> <!-- table heading -->
+                TH 1
+            </th>
+            <th>TH 2</th>
+            <th>TH 3</th>
+            <th>TH 4</th>
+        </tr>
+        <tr>
+            <td> <!-- table data  -->
+                TD 1.1
+            </td>
+            <td>TD 1.2</td>
+            <td>TD 1.3</td>
+            <td>TD 1.4</td>
+        </tr>
+        <tr>
+            <td>TD 2.1</td>
+            <td>TD 2.2</td>
+            <td>TD 2.3</td>
+            <td>TD 2.4</td>
+        </tr>
+        <tr>
+            <td>TD 3.1</td>
+            <td>TD 3.2</td>
+            <td>TD 3.3</td>
+            <td>TD 3.4</td>
+        </tr>
+        <tr>
+            <td>TD 4.1</td>
+            <td>TD 4.2</td>
+            <td>TD 4.3</td>
+            <td>TD 4.4</td>
+        </tr>
+    </table>
+
+</body>
+</html>
